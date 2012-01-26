@@ -1,0 +1,18 @@
+<package>
+  <description brief="socp">
+
+     socp
+
+  </description>
+  <author>Jon Fink</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/socp</url>
+  <depend package="armadillo"/>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix} -L${prefix}/lib -larmadillo_socp"/>
+  </export>
+
+</package>
+
+
